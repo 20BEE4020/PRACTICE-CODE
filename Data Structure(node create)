@@ -1,0 +1,37 @@
+import java.util.*;
+class Node{
+    int data;
+    Node left,right;
+    Node(int d){
+    data=d;
+    left=right=null;
+    }
+}
+class Main{
+public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    Node root=new Node(00);
+    root.left=new Node(10);
+    root.right=new Node(45);
+    root.left.left=new Node(23);
+    root.left.right=new Node(5);
+    root.left.left.left=new Node(21);
+    root.left.left.right=new Node(22);
+
+System.out.print(root.data+" ");
+System.out.print(root.left.data+" ");
+System.out.print(root.right.data+" ");
+System.out.print(root.left.left.data+" ");
+System.out.print(root.left.right.data+" ");
+System.out.print(root.left.left.left.data+" ");
+System.out.print(root.left.left.right.data+" ");
+}}
+
+
+
+
+
+
+
+
+
