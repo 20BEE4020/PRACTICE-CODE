@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>My Document</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- order list -->
+   <ol><li> java</li>
+        <li>C</li>
+         <li> html</li>
+   </ol>
+   <hr>
+<!-- unorder list -->
+<ul><li> java</li>
+<li>C</li>
+<li> html</li>
+</ul>
+<hr>
+<!-- entry list -->
+<dt>front backened</dt>
+<dd> HTML,JS,CSS,REACJS,FRAME WORK</dd>
+<DT>backened</DT>
+    <DD>JAVA,C ,PYTHON</DD>
+THANK YOU
+
+</body>
+</html>
